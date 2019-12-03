@@ -7,12 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api/food")
 public class IndexController {
-    @Value("${com.gzy.im.service.FileSystemStorageService.rootLocationStr}")
-    String path;
+   // @Value("${com.gzy.im.service.FileSystemStorageService.rootLocationStr}")
     @GetMapping("/index")
     Object findIndexImages(){
-        String indexImagesPath = path + "/default";
-        indexImagesPath.replace('/','\\');
         String json = "[\n" +
                 " {\n" +
                 "\n" +

@@ -14,6 +14,6 @@ public class Food {
     private Long id;
     private String imageUrl;
     private String foodName;
-    private String price;
-    private Integer categoryType;
+    private Integer price;
+    private String categoryName;
 }

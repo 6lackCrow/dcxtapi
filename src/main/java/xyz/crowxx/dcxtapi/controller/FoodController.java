@@ -3,8 +3,6 @@ package xyz.crowxx.dcxtapi.controller;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 import org.springframework.beans.BeanUtils;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
 import org.springframework.web.bind.annotation.*;
 import xyz.crowxx.dcxtapi.model.Category;
 import xyz.crowxx.dcxtapi.model.Food;
